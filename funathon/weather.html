@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>envo tech/weather</title>
+  <link rel="icon" type="image/x-icon" href="img/envo1.png">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Kanit:wght@300&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header" id="myHeader">
+       
+        <img src="img/envo.png">
+        <h1>weather</h1>
+        <div class="opt">
+            <a href="index.html"><p>home</p></a>
+            <a href="videos.html"><p>videos</p></a>
+            <a href="weather.html"><p>weather</p></a>
+            <a href="article.html"><p>article</p></a>            
+        </div>
+       
+    </div>
+  
+    
+  <div class="container">
+        <img src="img/thunder.jfif" style="width:100%;">
+        <div class="content">
+            <div class="input">
+                <h1>Let's see the weather of your place</h1>
+                <label>Enter the location :</label>
+                <input type="text" placeholder="Enter the city" class="input_text">
+                <button class="submit">Search</button>
+            </div>
+        
+            <center>
+            <div class="container1">
+                <div class="card">
+                    <img src="img/cloud1.png" width="20%">
+                    <h1 class="name" id="name"></h1>
+                    <p class="temp"></p>
+                    <p class="clouds"></p>
+                    <p class="desc"></p>
+                </div>
+            </div>
+            </center>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
